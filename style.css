@@ -368,3 +368,39 @@ section{
     color:var(--text-color-1);
     font-size: 2.5rem;
 }
+
+packages .box-container .box .content .price span{
+    font-weight: lighter;
+    color:var(--text-color-2);
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.5rem;
+    padding:.5rem 0;
+    color:var(--text-color-2);
+    line-height: 1.7;
+}
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.services .box-container .box{
+    background: var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    padding:2rem;
+}
+
+.services .box-container .box span{
+    position: absolute;
+    top:.5rem; right:2rem;
+    color:var(--text-color-2);
+    font-weight: bolder;
+    font-size: 5rem;
+}
