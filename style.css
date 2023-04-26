@@ -190,3 +190,34 @@ section{
     color:var(--text-color-1);
     border-radius: .5rem;
 }
+
+.header .navbar a:hover{
+    color:var(--orange);
+    background:var(--bg-color-2);
+    padding-left: 2rem;
+}
+
+.header .login-form{
+    position:absolute;
+    top:115%; right:7%;
+    background:var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    width:35rem;
+    padding: 2rem;
+    transform:scale(0);
+    transform-origin: top right;
+}
+
+.header .login-form.active{
+    transform:scale(1);
+}
+
+.header .login-form .inputBox{
+    margin-bottom: 1rem;
+}
+
+.header .login-form .inputBox span{
+    font-size: 1.7rem;
+    color:var(--text-color-2);
+}
