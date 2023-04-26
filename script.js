@@ -21,3 +21,11 @@ document.querySelector('#search-btn').onclick = () =>{
     navbar.classList.remove('active');
     loginForm.classList.remove('active');
 }
+
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+    searchForm.classList.remove('active');
+}
+
+let themeBtn = document.querySelector('#theme-btn');
