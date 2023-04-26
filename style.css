@@ -404,3 +404,49 @@ packages .box-container .box .content .price span{
     font-weight: bolder;
     font-size: 5rem;
 }
+
+.services .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color:#fff;
+    background: var(--orange);
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+.services .box-container .box h3{
+    color:var(--text-color-1);
+    font-size: 2.3rem;
+    padding:.7rem 0;
+}
+
+.services .box-container .box p{
+    color:var(--text-color-2);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.pricing .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.pricing .box-container .box{
+    background:var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+    text-align: center;
+}
+
+.pricing .box-container .box h3{
+    padding:1rem;
+    background: var(--bg-color-2);
+    border-radius: .5rem;
+    font-size: 2rem;
+    color:var(--text-color-1);
+}
