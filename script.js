@@ -13,3 +13,11 @@ document.querySelector('#login-btn').onclick = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
 }
+
+let searchForm = document.querySelector('.search-form')
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+}
