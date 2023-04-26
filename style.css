@@ -301,3 +301,37 @@ section{
     font-size: 1.7rem;
     color:var(--text-color-2);
 }
+
+.form-container form .inputBox input{
+    font-size: 1.5rem;
+    color:var(--text-color-1);
+    background:var(--bg-color-2);
+    border-radius: .5rem;
+    margin:.5rem 0;
+    text-transform: none;
+    width: 100%;
+    padding:1rem;
+}
+
+.form-container form .btn{
+    flex:1 1 23rem;
+}
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.packages .box-container .box{
+    background:var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.packages .box-container .box .image{
+    height:25rem;
+    width: 100%;
+    padding:1.5rem;
+    position: relative;
+}
